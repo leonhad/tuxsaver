@@ -1,0 +1,2 @@
+picsdir = $(kde_datadir)/tuxsaver/pics
+pics_DATA =  arm.png axe-wood.bmp bark.bmp blackmetal.bmp body.png cactus2.bmp fish2.bmp flame.bmp ice.bmp ice.png iglo3.bmp iluvkde.bmp kde-steel.bmp leaf.bmp rand2.bmp redhat.png redyellowhat.png rock2.bmp rock.bmp sand.bmp sky.png snow.bmp snow_ice.bmp snowice.bmp snowice.png snow.png subbody.png textureboat.bmp textureboatside.bmp titanic.bmp titanictop.bmp tuxshot.png water2.jpg water.png yellow.png head.png

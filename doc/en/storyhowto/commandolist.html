@@ -1,0 +1,162 @@
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-before: always; page-break-inside: avoid">
+
+	<THEAD>
+			<TH WIDTH=15%>
+				<P><div align="center">Name of command in story-file</div>
+				</P>
+			</TH>
+			<TH WIDTH=55%>
+				<P><div align="center">Descrtiption</div>
+    </P>
+			</TH>
+			<TH WIDTH=30%>
+				<P><div align="center">example</div>
+				</P>
+			</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+			<TD WIDTH=15%>
+				<P><BR><div align="center">move</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<div align="center"><P>Use this command if you want to move an object.
+				<br><b>object move begintime endtime x y z</b></div>
+
+				</P></div>
+			</TD>
+			<TD WIDTH=30%>
+				<P><BR><div align="center">penguin move 21 21 1 10 -5</div>
+				</P>
+			</TD>
+		</TR>
+
+<TD WIDTH=15%>
+				<P><div align="center">walk</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">Use this command if you want the penguin to walk.<br>The difference with move is that the penguin's leggs move.<br><b>penguin walk begintime endtime x y z</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">penguin walk 12 45 4 0 -2</div>
+				</P>
+			</TD>
+		</TR>
+
+
+		 <TD WIDTH=15%>
+				<P><div align="center">rotate</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">Use this command if you want to rotate an object.<br><b>object rotate begintime endtime x y z (x,y,z are degrees)</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">camera rotate 16 16 0 90 0</div>
+				</P>
+			</TD>
+		</TR>
+			<TD WIDTH=15%>
+				<P><div align="center">visible</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">This is an important command, because you need to say witch objects are visible in the beginning of you story.<br><b>object visible begintime endtime</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">penguin visible 0 25</div>
+				</P>
+			</TD>
+		</TR>
+			<TD WIDTH=15%>
+				<P><div align="center">follow</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P>
+				<div align="center">This is also an important command because it has to be used in every story to make things follow each other.
+				<ul>
+                <br><li>If you want you penguin not to "fly" when the island moves up and down: use the "follow" command.</li>
+				<br><li>If you want the hat or any other object to follow the penguin or the island: use the "follow" command.</li>
+				<br><li><b>Important:</b>&nbsp;An object has to follow an other object!!!!<br>If it doesn't, it won't be displayed.<br>So you should at least do a follow 'world' if you don't want the object to move with the island, or a follow 'island' if the object has to follow the island</li>
+				<div align="left"><dd>
+				<ul>
+				<li><b>Example 1:</b> "hat follow 0 12 penguin" => the hat moves along with the penguin</li>
+				<li><b>Example 2:</b> "hat follow 0 12 island" => the hat moves along with the island</li>
+				</ul>
+				</dd></div>
+                </ul>
+				</div>
+				</P>
+				<P><div align="center"><b>object follow begintime endtime 'object that had to be followed'</b></div>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">penguin follow 0 25 island</div>
+				</P>
+			</TD>
+		</TR>
+
+<TD WIDTH=15%>
+				<P><div align="center">endstory</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">This is an important command because if you don't use it your story will be endless.<br>Use this command to end the story
+				<br>The sounds you can use are situated in '/usr/share/apps/tuxsaver/sounds/'<br><b>endstory begintime begintime</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">endstory 60 60</div>
+				</P>
+			</TD>
+		</TR>
+
+<TD WIDTH=15%>
+				<P><div align="center">openmouth</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">Use this command if you want to open the mouth of the penguin.<br><b>penguin openmouth begintime endtime 'size of opening'</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">penguin openmouth 23 24 0.5</div>
+				</P>
+			</TD>
+		</TR>
+
+<TD WIDTH=15%>
+				<P><div align="center">playsound</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">Use this command to play a sound<br>The sounds you can use are situated in '/usr/share/apps/tuxsaver/sounds/' (for mandrake and redhat)<br><b>playsound begintime begintime 'name of sound'</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">playsound 44 44 up.wav</div>
+				</P>
+			</TD>
+		</TR>
+
+<TD WIDTH=15%>
+				<P><div align="center">loadobject</div>
+				</P>
+			</TD>
+			<TD WIDTH=55%>
+				<P><div align="center">Use this command to use a object drawn in AC3D as a normal object in tuxsaver<br>The objects have to be situated in '/usr/share/apps/tuxsaver/objects/' (for mandrake and redhat)<br><b>loadobject 'name of object in the story-file' 'name of filename in /usr/share/apps/tuxsaver/objects/'</b></div>
+				</P>
+			</TD>
+			<TD WIDTH=30%>
+				<P><div align="center">loadobject titanic titanic3.ac</div>
+				</P>
+			</TD>
+		</TR>
+
+	</TBODY>
+</TABLE>

@@ -1,0 +1,15 @@
+
+-fix texture on some ATI cards -> red lines FIXED in new XFree
+-there are various TODO's in the code like "//TODO: fix this,..."
+-clean up penguin ASSIGNED to frank
+-implement standard kde config: kconfig DONE koen
+-add sounds DONE koen
+-make uic-compatible interface for tuxsaversetupdialog DONE koen
+-make more objects and make them loadable at runtime DONE koen
+-fix jump in penguin
+-port to kdevelop 3 and automake 1.7 DONE koen
+-fix links to email and website in setupbox DONE koen
+-fix texture in ac3d loader DONE koen
+-make a ac3d object of the island DONE koen
+-load textures only ones, textures get loaded more than ones now, port
+textureloader from game DONE koen

@@ -1,0 +1,74 @@
+penguin visible 0 30
+hat visible 0 30
+
+penguin follow 0 30 island
+
+hat follow 0 30 penguin
+
+hat move 0 0 0 3.2 0
+
+penguin move 4 4.2 0 2 0
+penguin move 4.2 4.5 0 0 0
+
+penguin leftarm 4 4.2 1 2.5 0
+penguin rightarm 4 4.2 1 2.5 0
+penguin leftarm 4.2 4.5 0 0 0
+penguin rightarm 4.2 4.5 0 0 0
+
+
+penguin move 5 5.2 0 2 0
+penguin move 5.2 5.5 0 0 0
+
+penguin leftarm 5 5.2 1 2.5 0
+penguin rightarm 5 5.2 1 2.5 0
+penguin leftarm 5.2 5.5 0 0 0
+penguin rightarm 5.2 5.5 0 0 0
+penguin openmouth 5 5.2 0.5
+penguin openmouth 5.2 5.5 0
+
+
+penguin move 6 6.2 0 2 0
+penguin move 6.2 6.5 0 0 0
+
+penguin leftarm 6 6.2 1 2.5 0
+penguin rightarm 6 6.2 1 2.5 0
+penguin leftarm 6.2 6.5 0 0 0
+penguin rightarm 6.2 6.5 0 0 0
+penguin openmouth 6 6.2 0.5
+penguin openmouth 6.2 6.5 0
+
+
+penguin move 7 7.2 0 2 0
+penguin move 7.2 7.5 0 0 0
+
+penguin leftarm 7 7.2 1 2.5 0
+penguin rightarm 7 7.2 1 2.5 0
+penguin leftarm 7.2 7.5 0 0 0
+penguin rightarm 7.2 7.5 0 0 0
+penguin openmouth 7 7.2 0.5
+penguin openmouth 7.2 7.5 0
+
+
+penguin move 8 8.2 0 2 0
+penguin move 8.2 8.5 0 0 0
+
+penguin leftarm 8 8.2 1 2.5 0
+penguin rightarm 8 8.2 1 2.5 0
+penguin leftarm 8.2 8.5 0 0 0
+penguin rightarm 8.2 8.5 0 0 0
+penguin openmouth 8 8.2 0.5
+penguin openmouth 8.2 8.5 0
+
+
+penguin move 9 9.2 0 2 0
+penguin move 9.2 9.5 0 0 0
+
+penguin leftarm 9 9.2 1 2.5 0
+penguin rightarm 9 9.2 1 2.5 0
+penguin leftarm 9.2 9.5 0 0 0
+penguin rightarm 9.2 9.5 0 0 0
+penguin openmouth 9 9.2 0.5
+penguin openmouth 9.2 9.5 0
+
+
+endstory 16 16

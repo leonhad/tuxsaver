@@ -1,0 +1,154 @@
+<div align="center"><h1>Tuxsaver story editor HOWTO</h1></div>
+<br>
+<h2>1. Introduction</h2>
+<p>If you want tux to do whatever you would like see him doing You should make own story for tuxsaver.<br>
+It isn't very difficult, all you need is a text editor (for example: kate or emacs).<br>
+How to make your own story is explained in this HOWTO.</p>
+<h2>2. About the stories.</h2>
+<p>A story is a text file that contains commands that say what tux has to do.<br>
+The average story is about 100s long and the screensaver randomly picks a story out of the storylist.<br>
+A storylist is a text file where all the stories are listed.</p>
+<p>These stories and the storylist file are located in '/usr/share/apps/tuxsaver/stories' (on Mandrake/Redhat).</p>
+<h2>3. How to make a story.</h2>
+<h3>3.1 The names of the objects.</h3>
+There are several objects in the screensaver, the following is a list of objects that can be displayed/used in the screensaver and that are standard part of tuxsaver<br>
+<br>
+<TABLE WIDTH=550* BORDER=1 CELLPADDING=4 CELLSPACING=3 STYLE="page-break-before: always; page-break-inside: avoid">
+	<THEAD>
+			<TH WIDTH=20%>
+				<P><BR><div align="center">Name object in story-file</div>
+				</P>
+			</TH>
+			<TH WIDTH=50%>
+				<P><BR><div align="center">Description</div>
+				</P>
+			</TH>
+		</TR>
+	</THEAD>
+	<TBODY>
+			<TD WIDTH=20%>
+				<P><div align="center">penguin</div>
+				</P>
+			</TD>
+			<TD WIDTH=50%>
+				<P><div align="center">Tux; the penguin of the screensaver</div>
+				</P>
+			</TD>
+		</TR>
+			<TD WIDTH=20%>
+				<P><div align="center">hat</div>
+				</P>
+			</TD>
+			<TD WIDTH=50%>
+				<P><div align="center">The hat of tux. The type of hat can be tuned in the setup dialog of tuxsaver</div>
+				</P>
+			</TD>
+		</TR>
+		<TD WIDTH=20%>
+				<P><div align="center">camera</div>
+				</P>
+			</TD>
+			<TD WIDTH=50%>
+				<P><div align="center">The camera. The camera films the penguin.</div>
+				</P>
+			</TD>
+		</TR>
+			<TD WIDTH=20%>
+				<P><div align="center">island</div>
+			</TD>
+			<TD WIDTH=50%>
+				<P><div align="center">The island. (moves along with the sea)</div>
+				</P>
+			</TD>
+		</TR>
+		<TD WIDTH=20%>
+				<P><div align="center">world</div>
+				</P>
+			</TD>
+			<TD WIDTH=50%>
+				<P><div align="center">The whole world; everything</div>
+				</P>
+			</TD>
+
+</TABLE>
+<br>
+You can also draw objects in AC3D (www.ac3d.org or www.download.com) and use them in tuxsaver.
+<br>How to use an object drawn in AC3D in tuxsaver:
+<ol>
+  <li> Make your object in AC3D </li>
+  <li> Save you object in /usr/share/apps/tuxsaver/objects/nameofyourobject.ac (for mandrake and redhat) </li>
+  <li> Add this line: <b>loadobject nameofyourobjectinthestory nameofyourobject.ac</b> to the story you want to use the object in </li>
+  <li> Now you can use the object as if it was a normal object. </li>
+</ol>
+<i><b>remark:</b>&nbsp;AC3D can be used in windows and in linux. You can download it at <b>www.ac3d.org</b> or <b>www.download.com</b></i><br>
+<i><b>remark:</b>&nbsp;The name of the object in the story doesn't has to be the same as the filename of the object</i><br>
+<i><b>example:</b>&nbsp;loadobject titanic titanic3.ac<br><dd><dl>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;titanic move 1 5 0 6 5 </dl></dd></i>
+<br><br>
+<h3>3.2 A list of all the commands.</h3>
+<a href = "commandolist.html"> click here to see a list of all the commands + a description and an example of all the commands</a>
+<br>
+<br>
+<h3>3.3 How to use the commands</h3>
+The story-file uses a certain structure.
+
+<ul>
+<dd><li>The first word of a line in the story is the name of the object that you are going to use. (for example: penguin)</li></dd>
+<dd><li>The second word of a line in the story is the command that says what should be done with the object. (for example: move)</li></dd>
+<dd><li>The second word is followed by the start-time and the begin-time of the action that has to take place. (starttime stoptime)</li></dd>
+<dd>For example "12 13": the action will take place from the 12th second since the story started</dd>
+<dd>and the action will stop at the 13th second since the program has started.</dd>
+<dd><i><b>remark:</b>&nbsp;If you want an action to take place at once, you have to make the begin time and the end time equal.(example "12 12")</i></dd>
+<dd><li>This is followed by the 3 co-ordinates that the object has to go to. (x y z)</li></dd>
+</ul>
+
+<i><br><b>example:</b>&nbsp;"penguin move 3 4 0 2 0" = the penguin will move from second 3 till 4 to the co-ordinates 0 2 0 (= x y z)
+<br><i><b>remark:</b>&nbsp;There is an exception when using the "follow","visible" and "openmouth" command. (see "3.2")</i>
+<br>
+
+<br>
+<h3>3.4 What is a storyfile and how to edit?</h3>
+The storyfile is the file with a list of the names all the stories.
+<br>It exists of:
+<br>
+<ol>
+<li>A list with the filenames of the stories</li>
+<li>A number which takes care of the frequency that stories are showed (the higher the number, the more it is showed)</li>
+<dt><i><b>remark:</b> The number intermediates <b>0</b> (=the story will never be shown) and <b>100</b> (=the story will always be shown)</i></dt>
+<dt><b><i>example:</b>The story "wave" will be shown more frequently than the story "swim"<dd>wave 30</dd></i><dd>swim 15</i></dd></dt>
+
+</ol>
+
+<br>
+<h3>3.5 What do i have to do to let tuxsaver use my story?</h3>
+The story-files and the story-list file are stituated in '/usr/share/apps/tuxsaver/stories/' (for mandrake and redhat)
+<br>If you want tux to execute your story:
+<br>
+<ol>
+<li>You have to put your story in this directory: '/usr/share/apps/tuxsaver/stories/'</li>
+<li>You have to edit this file: '/usr/share/apps/tuxsaver/stories/storylist'. Just add the name of you story to the list, and add a number which indicates the frequency the story has to be displayed with (0-99)</li>
+<b><i>example:</b>&nbsp;swim 15</i>
+</ol>
+
+<br>
+<h3>3.6 Overview.</h3>
+<ol>
+<li>Open a text editor. For example kate</li>
+<li>You have to say which objects that need to be shown => Use the "visible" command (example: penguin visible 0 25 )</li>
+<li>You have to say which object should follow which object. => Use the "follow" command (example: penguin follow 0 25 island )</li>
+<li>Type your story. => Use the commands discripted in "3.2"</li>
+<li>End your story. => Use the "endstory" command (example: endstory 25 25) </li>
+<dd>
+<b><i><u>remark:</u></font>&nbsp; It is very important that at the end of your story the position of 'penguin' is 0 0 0&nbsp; (= x y z)!!!</i><br>
+<i><u>remark:</u></font>&nbsp; It is very important that at the end of your story the position of 'camera' is 0 9 -38&nbsp; (= x y z)!!!</i><br>
+<i><u>remark:</u></font>&nbsp; It is very important that at the end of your story 'penguin' <font size="+1">is</font> wearing his hat!!!</i><br>
+<i><u>remark:</u></font>&nbsp; It is very important that at the end of your story 'penguin' <font size="+1">isn't</font> wearing his sunglasses!!!</i></font></b><br>
+</dd>
+<li>Copy your story to '/usr/share/apps/tuxsaver/stories/'</li>
+<li>Edit '/usr/share/apps/tuxsaver/stories/storylist'. Add 1 line: the name of your story-file and a number which indicates the frequency the story has to be displayed with</li>
+</ol>
+<br>
+<h2>4. It would be great if my story or object was part of the tuxsaver package next release.</h2>
+<p>
+If you have a good story or you have made a cool object with AC3D and you want it to be part of the tuxsaver package next release:
+<a href="mailto:koen.muylkens@esat.kuleuven.ac.be?subject=A tuxsaver story" title="It would be great if my story was part of the tuxsaver package next release">e-mail your story to a tuxsaver developer</a>
+</p>

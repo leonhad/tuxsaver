@@ -1,0 +1,147 @@
+# traduction de tuxsaver.po en Français
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Delafond <gerard@delafond.org>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxsaver\n"
+"POT-Creation-Date: 2003-12-23 12:36+0100\n"
+"PO-Revision-Date: 2003-11-03 21:32+0100\n"
+"Last-Translator: Delafond <gerard@delafond.org>\n"
+"Language-Team: Français <kde-francophone@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+
+#: rc.cpp:1 rc.cpp:2
+msgid "TuxSaver Setup"
+msgstr "Configuration de TuxSaver"
+
+#: rc.cpp:3 rc.cpp:28
+msgid "TuxSaver"
+msgstr "TuxSaver"
+
+#: rc.cpp:4
+msgid "Blank Screen"
+msgstr "Écran vide"
+
+#: rc.cpp:7 rc.cpp:18
+msgid "30"
+msgstr "30"
+
+#: rc.cpp:8
+msgid "blank screen after a few minutes"
+msgstr "écran vide après quelques minutes"
+
+#: rc.cpp:9
+msgid ""
+"This is aspecially usefull for laptops, where the powerconsuming TuxSaver "
+"shouldn't run for too long."
+msgstr ""
+"C'est spécialement utile pour les portables, où le gourmand TuxSaver ne "
+"devrait pas fonctionner longtemps."
+
+#: rc.cpp:10
+msgid "Stories"
+msgstr "Histoires"
+
+#: rc.cpp:11
+msgid "open Story HowTo"
+msgstr "ouvrir le HowTo sur l'hisoire"
+
+#: rc.cpp:12
+msgid "Sound"
+msgstr "Son"
+
+#: rc.cpp:13
+msgid "enable sounds in stories"
+msgstr "activer les sons dans les histoires"
+
+#: rc.cpp:14
+msgid "enable background ocean sounds"
+msgstr "activer les sons de l'océan en fond"
+
+#: rc.cpp:15
+msgid "Sea"
+msgstr "Mer"
+
+#: rc.cpp:16
+msgid "Waves"
+msgstr "Vagues"
+
+#: rc.cpp:17
+msgid "wave the sea"
+msgstr "animer la mer"
+
+#: rc.cpp:19
+msgid "Transparancy of the sea"
+msgstr "Transparence de la mer"
+
+#: rc.cpp:20
+msgid "transparancy"
+msgstr "transparence"
+
+#: rc.cpp:21
+msgid "80"
+msgstr "80"
+
+#: rc.cpp:22
+msgid "Island"
+msgstr "Île"
+
+#: rc.cpp:23
+msgid "move iceberg along with the waves"
+msgstr "faire bouger l'iceberg avec les vagues"
+
+#: rc.cpp:24
+msgid "Hat"
+msgstr "Chapeau"
+
+#: rc.cpp:25
+msgid "change hat randomly"
+msgstr "changer le chapeau aléatoirement"
+
+#: rc.cpp:27
+msgid ""
+"<b>TuxSaver</b><br>\n"
+"<i>by</i><br>\n"
+"Koen Muylkens<br>\n"
+"<i>koen.muylkens@esat.kuleuven.ac.be</i><br>\n"
+"Toon Muylkens<br>\n"
+"<i>toon.muylkens@pandora.be</i><br>\n"
+"Frank Moonen<br>\n"
+"<i>frank.moonen@esat.kuleuven.ac.be</i><br>\n"
+"Leonardo Alves da Costa<br>\n"
+"<i>leonardoac@brturbo.com</i>"
+msgstr ""
+"<b>TuxSaver</b><br>\n"
+"<i>par</i><br>\n"
+"Koen Muylkens<br>\n"
+"<i>koen.muylkens@esat.kuleuven.ac.be</i><br>\n"
+"Toon Muylkens<br>\n"
+"<i>toon.muylkens@pandora.be</i><br>\n"
+"Frank Moonen<br>\n"
+"<i>frank.moonen@esat.kuleuven.ac.be</i><br>\n"
+"Leonardo Alves da Costa<br>\n"
+"<i>leonardoac@brturbo.com</i>"
+
+#: rc.cpp:30 rc.cpp:31
+msgid "http://www.esat.kuleuven.ac.be/~kmuylken/tuxsaver/"
+msgstr "http://www.esat.kuleuven.ac.be/~kmuylken/tuxsaver/"
+
+#: rc.cpp:34
+msgid "Screen Saver Config"
+msgstr ""
+
+#: rc.cpp:35
+msgid "Set some setting"
+msgstr ""
+
+#: tuxsaverres.cpp:20
+msgid "tuxsaver"
+msgstr "tuxsaver"
+
+#~ msgid "C&ustom"
+#~ msgstr "&Personnalisation"

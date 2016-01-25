@@ -1,0 +1,46 @@
+penguin visible 0 25
+hat visible 0 25
+hat follow 0 25 penguin
+penguin follow 0 25 island
+
+hat move 0 0 0 3.2 0
+penguin leftarm 1 1.5 1 2.5 0
+penguin leftarm 1.5 2 0 0 0
+penguin leftarm 2 2.5 1 2.5 0
+penguin leftarm 2.5 3 0 0 0
+
+penguin move 3 3.5 0 1.5 0
+penguin move 3.5 4 0 0 0
+
+penguin move 4 4.5 0 1.5 0
+penguin move 4.5 5 0 0 0
+
+penguin rotate 4.1 4.9 0 -360 0
+
+camera rotate 5 8 -10 60 0
+camera move 5 8 35 18 -20
+
+penguin rotate 8 10 0 -140 0
+penguin walk 8 9 0 0 0
+penguin walk 10 14 6 0 6
+
+penguin move 14 14.5 6 2 6
+penguin move 14.5 15 6 0 6
+penguin rotate 14.1 14.9 0 40 0
+
+camera move 16 16 30 9 0
+camera rotate 16 16 0 90 0
+
+penguin walk 17 21 0 0 0
+
+camera move 21 21 0 9 -38
+camera rotate 21 21 0 0 0
+penguin move 21 21 0 0 0
+penguin rotate 21 21 0 0 0
+
+penguin openmouth 21 22 0.5
+penguin openmouth 22 23 0
+penguin openmouth 23 24 0.5
+penguin openmouth 24 25 0
+
+endstory 25 25

@@ -1,0 +1,140 @@
+loadobject beachball beachball.ac
+
+penguin visible 0 60
+hat visible 0 60
+
+penguin follow 0 60 island
+beachball follow 0 36 penguin
+
+beachball visible 6 60
+
+hat follow 0 60 penguin
+hat move 0 0 0 3.2 0
+
+penguin rotate 1 2 0 180 0
+penguin walk 2 3 0 0 7
+penguin walk 3 5 -5 0 7
+
+penguin leftarm 5 6 -0.3 1 1.5
+penguin rightarm 5 6 -0.3 1 1.5
+beachball move 5 6 0 0.8 -1.5
+
+penguin rotate 6 7 0 -90 0
+penguin walk 7 8 0 0 7
+penguin rotate 8 8.5 0 0 0
+penguin walk 8.5 10 0 0 0
+
+#penguin rotate 10 10.4 0 360 0
+penguin rotate 10 10.2 0 0 0
+
+#ball up and down
+penguin leftarm 11 11.5 -0.3 0.5 1.5
+penguin rightarm 11 11.5 -0.3 0.5 1.5
+beachball move 11 11.5 0 0.4 -1.5
+
+penguin leftarm 11.5 11.8 -0.3 1 1.5
+penguin rightarm 11.5 11.8 -0.3 1 1.5
+beachball move 11.5 12 0 8 -1.5
+beachball move 12 12.5 0 0.8 -1.5
+
+#ball up and down
+penguin leftarm 13 13.5 -0.3 0.5 1.5
+penguin rightarm 13 13.5 -0.3 0.5- 1.5
+beachball move 13 13.5 0 0.4 -1.2
+
+penguin leftarm 13.5 13.8 -0.3 1 1.5
+penguin rightarm 13.5 13.8 -0.3 1 1.5
+beachball move 13.5 14 0 8 -1.5
+beachball move 14 14.5 0 0.8 -1.2
+
+penguin rotate 15 16 0 -90 0
+
+#ball up and down
+penguin leftarm 15 15.5 -0.3 0.5 1.5
+penguin rightarm 15 15.5 -0.3 0.5 1.5
+beachball move 15 15.5 0 0.4 -1.5
+
+penguin leftarm 15.5 15.8 -0.3 1 1.5
+penguin rightarm 15.5 15.8 -0.3 1 1.5
+beachball move 15.5 16 0 8 -1.5
+beachball move 16 16.5 0 0.8 -1.5
+
+penguin walk 17 18 4 0 0
+
+#ball up and down
+penguin leftarm 19 19.5 -0.3 0.5 1.5
+penguin rightarm 19 19.5 -0.3 0.5 1.5
+beachball move 19 19.5 0 0.4 -1.5
+
+penguin leftarm 19.5 19.8 -0.3 1 1.5
+penguin rightarm 19.5 19.8 -0.3 1 1.5
+beachball move 19.5 20 0 8 -1.5
+beachball move 20 20.5 0 0.8 -1.5
+
+#ball up and down
+penguin leftarm 22 22.5 -0.3 0.5 1.5
+penguin rightarm 22 22.5 -0.3 0.5 1.5
+beachball move 22 22.5 0 0.4 -1.5
+
+penguin leftarm 22.5 22.8 -0.3 1 1.5
+penguin rightarm 22.5 22.8 -0.3 1 1.5
+beachball move 22.5 23 0 8 -1.5
+beachball move 23 23.5 0 0.8 -1.5
+
+penguin rotate 24 25 0 90 0
+penguin walk 25 27 -4 0 0
+
+#ball up and down
+penguin leftarm 28 28.5 -0.3 0.5 1.5
+penguin rightarm 28 28.5 -0.3 0.5 1.5
+beachball move 28 28.5 0 0.4 -1.5
+
+penguin leftarm 28.5 28.8 -0.3 1 1.5
+penguin rightarm 28.5 28.8 -0.3 1 1.5
+beachball move 28.5 29 0 8 -1.5
+beachball move 29 29.5 0 0.8 -1.5
+
+#ball up and down
+penguin leftarm 30 30.5 -0.3 0.5 1.5
+penguin rightarm 30 30.5 -0.3 0.5 1.5
+beachball move 30 30.5 0 0.4 -1.5
+
+penguin leftarm 30.5 30.8 -0.3 1 1.5
+penguin rightarm 30.5 30.8 -0.3 1 1.5
+beachball move 30.5 31 0 8 -1.5
+beachball move 31 31.5 0 0.8 -1.5
+
+#ball up and down
+penguin leftarm 32 32.5 -0.3 0.5 1.5
+penguin rightarm 32 32.5 -0.3 0.5 1.5
+beachball move 32 32.5 0 0.4 -1.5
+
+penguin leftarm 32.5 32.8 -0.3 1 1.5
+penguin rightarm 32.5 32.8 -0.3 1 1.5
+beachball move 32.5 33 0 8 -1.5
+beachball move 33 33.5 0 0.8 -1.5
+
+#ball up and down
+penguin leftarm 34 34.5 -0.3 0.5 1.5
+penguin rightarm 34 34.5 -0.3 0.5 1.5
+beachball move 34 34.5 0 0.4 -1.5
+
+penguin leftarm 34.5 34.8 -0.3 1 1.5
+penguin rightarm 34.5 34.8 -0.3 1 1.5
+beachball move 34.5 35 -4 8 -1.5
+beachball move 35 35.5 -8 0.8 -1.5
+
+
+penguin leftarm 35 36 0 0 0
+penguin rightarm 35 36 0 0 0
+
+penguin rotate 36 36.5 0 180 0
+
+penguin rotate 41 42 0 270 0
+penguin walk 42 44 0 0 0
+
+penguin rotate 44 45 0 360 0
+penguin rotate 46 46 0 0 0
+
+
+endstory 55 55

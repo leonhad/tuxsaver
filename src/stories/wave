@@ -1,0 +1,25 @@
+penguin visible 0 30
+hat visible 0 30
+
+penguin follow 0 30 island
+
+hat follow 0 30 penguin
+
+hat move 0 0 0 3.2 0
+
+#sunglasses visible 7 30
+#sunglasses move 1 1 0 3 0
+#sunglasses follow 5 30 penguin
+
+penguin leftarm 1 1.5 1 2.5 0
+penguin leftarm 1.5 2 0 0 0
+penguin leftarm 2 2.5 1 2.5 0
+penguin leftarm 2.5 3 0 0 0
+
+#penguin leftarm 5 6 -0.5 0 0
+#penguin leftarm 7 8 0 0 0
+#penguin leftarm 8 9 0 2 0
+#penguin leftarm 9 10 -1 2 0
+#penguin leftarm 10 11 0 0 0
+
+endstory 12 12

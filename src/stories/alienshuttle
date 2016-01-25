@@ -1,0 +1,210 @@
+loadobject alienshuttle alienshuttle.ac
+loadobject greenbeam greenbeam.ac
+
+penguin visible 0 180
+hat visible 0 180
+alienshuttle visible 4 180
+greenbeam visible 50 75
+
+alienshuttle follow 0 180 island
+penguin follow 0 70 island
+penguin follow 70 140 alienshuttle
+penguin follow 140 180 island
+hat follow 0 180 penguin
+greenbeam follow 0 180 alienshuttle
+
+hat move 0 0 0 3.2 0
+
+penguin leftarm 1 1.5 1 2.5 0
+penguin leftarm 1.5 2 0 0 0
+penguin leftarm 2 2.5 1 2.5 0
+penguin leftarm 2.5 3 0 0 0
+
+camera rotate 3 8 7 0 0
+camera move 3 8 0 9 -55
+
+alienshuttle rotate 5 5 0 90 0
+alienshuttle move 0 0 50 0 50
+alienshuttle move 6 9 -15 0 40
+playsound 6 6 airplane.ogg
+alienshuttle rotate 9 10 0 -90 0
+alienshuttle move 11 14 20 1 40
+playsound 11 11 airplane.ogg
+alienshuttle rotate 14 15 0 -215 0
+alienshuttle move 16 19 10 3 60
+playsound 16 16 airplane.ogg
+alienshuttle rotate 20 21 0 -360 0
+alienshuttle move 22 24 0 4 -70
+playsound 22 22 airplane.ogg
+
+alienshuttle rotate 27 27 0 90 0
+alienshuttle move 27 27 50 4 20
+alienshuttle move 28 32 -50 4 20
+playsound 28 28 airplane.ogg
+
+alienshuttle rotate 33 33 0 -70 0
+alienshuttle move 33 33 -50 3 0
+alienshuttle move 34 37 50 3 -10
+playsound 34 34 airplane.ogg
+
+alienshuttle rotate 37.5 37.5 0 150 0
+alienshuttle move 39 43 0 5 60
+playsound 39 39 airplane.ogg
+
+alienshuttle rotate 43 44 0 0 0
+alienshuttle move 45 48 0 6 0
+playsound 45 45 airplane.ogg
+
+camera move 52 54 0 4 -15
+
+penguin openmouth 46 46.5 0.5
+penguin openmouth 46.5 47 0
+penguin openmouth 47 47.5 0.3
+penguin openmouth 48.5 49 0
+penguin openmouth 49 49.5 0.3
+penguin openmouth 49.5 50 0
+penguin openmouth 50 50.2 0.5
+penguin openmouth 50.2 50.5 0
+penguin openmouth 50.5 51 0.5
+penguin openmouth 51 52.2 0.1
+penguin openmouth 52.2 52.5 0
+penguin openmouth 52.5 53 0.5
+penguin openmouth 53 53.5 0
+penguin openmouth 53.5 54 0.5
+penguin openmouth 54 55 0
+penguin openmouth 55 55.5 0.5
+penguin openmouth 55.5 56 0
+penguin openmouth 56 56.5 0.5
+penguin openmouth 56.5 57 0
+penguin openmouth 57 57.2 0.3
+penguin openmouth 57.5 58 0
+
+penguin rightarm 46 46.5 1 2.5 0
+penguin rightarm 46.5 47 0 0 0
+penguin rightarm 50 50.5 1 2.5 0
+penguin rightarm 51.5 52 0 0 0
+penguin rightarm 52 52.5 1 2.5 0
+penguin rightarm 52.5 53 0 0 0
+penguin rightarm 53 53.5 1 2.5 0
+penguin rightarm 53.5 54 0 0 0
+penguin rightarm 54 54.5 1 2.5 0
+penguin rightarm 54.5 55 0 0 0
+penguin rightarm 55 55.5 1 2.5 0
+penguin rightarm 55.5 56 0 0 0
+
+penguin leftarm 46 46.5 1 2.5 0
+penguin leftarm 46.5 47 0 0 0
+penguin leftarm 50 50.5 1 2.5 0
+penguin leftarm 51.5 52 0 0 0
+penguin leftarm 52 52.5 1 2.5 0
+penguin leftarm 52.5 53 0 0 0
+penguin leftarm 53 53.5 1 2.5 0
+penguin leftarm 53.5 54 0 0 0
+penguin leftarm 54 54.5 1 2.5 0
+penguin leftarm 54.5 55 0 0 0
+penguin leftarm 55 55.5 1 2.5 0
+penguin leftarm 55.5 56 0 0 0
+
+camera move 57 57 -35 5 0
+camera rotate 57 57 10 -90 0
+
+playsound 50 50 greenbeam.ogg
+playsound 55 55 greenbeam.ogg
+playsound 60 60 greenbeam.ogg
+playsound 65 65 greenbeam.ogg
+
+penguin move 55 69 0 6.8 0
+
+#tux is now connected to the alienshuttle so we reset the coordinates
+penguin move 70 70 0 0.8 0
+
+camera move 66 66 0 6 -50
+camera rotate 66 66 10 0 0
+
+alienshuttle move 71 74 0 4 -20
+
+camera move 76 78 0 7 -45
+
+penguin leftarm 77 77.5 1 2.5 0
+penguin leftarm 77.5 78 0 0 0
+penguin leftarm 78 78.5 1 2.5 0
+penguin leftarm 78.5 79 0 0 0
+penguin leftarm 79 79.5 1 2.5 0
+penguin leftarm 79.5 80 0 0 0
+
+alienshuttle rotate 82 84 0 90 0
+alienshuttle move 86 90 -40 5 0
+playsound 86 86 airplane.ogg
+
+alienshuttle rotate 92 92 0 -90 0
+alienshuttle move 93 97 40 5 0
+playsound 94 94 airplane.ogg
+
+alienshuttle rotate 99 99 0 180 0
+alienshuttle move 99 99 0 3 -55
+camera move 99 99 0 11 -70
+camera rotate 99 99 0 -10 0
+
+alienshuttle move 99 105 0 3 20
+playsound 99 99 airplane.ogg
+camera move 99 105 0 11 5
+
+alienshuttle rotate 105 106 0 0 0
+
+alienshuttle move 106 110 0 3 -50
+playsound 106 106 airplane.ogg
+camera move 106 110 0 11 -70
+
+alienshuttle rotate 110 111 0 -135 0
+alienshuttle move 111.5 115 50 6 50
+playsound 111.5 111.5 airplane.ogg
+camera rotate 112 115 10 0 0
+
+
+alienshuttle rotate 115 116 0 -270 0
+alienshuttle move 117 120 -60 6 20
+playsound 117 117 airplane.ogg
+camera move 117 120 0 10 -70
+
+alienshuttle rotate 130 130 0 -90 0
+alienshuttle move 136 145 60 6 20
+playsound 134 134 airplane.ogg
+
+playsound 140 140 splash.ogg
+
+penguin move 137 140 0 -10 0
+
+penguin move 140 141 0 -5 20
+penguin rotate 140 140 0 0 0
+
+penguin walk 141 143 0 -2.5 20
+penguin walk 143 145 0 -2.5 10
+
+penguin move 145 145.5 0 0 9.5
+penguin move 145.5 146 0 0 8.5
+
+penguin walk 147 148 0 0 0
+penguin rotate 148 149 0 -45 0
+
+penguin rotate 155 156 0 -45 0
+penguin leftarm 157 157.5 1 2.5 0
+penguin leftarm 157.5 158 0 0 0
+penguin leftarm 158 158.5 1 2.5 0
+penguin leftarm 158.5 159 0 0 0
+penguin leftarm 159 159.5 1 2.5 0
+penguin leftarm 159.5 160 0 0 0
+penguin leftarm 160 160.5 1 2.5 0
+penguin leftarm 160.5 161 0 0 0
+penguin rotate 157 161 0 45 0
+
+penguin rotate 163 163.5 0 0 0
+
+alienshuttle move 154 154 70 6 -20
+alienshuttle rotate 155 155 0 90 0
+alienshuttle move 155 163 -70 6 -20
+playsound 157 157 airplane.ogg
+
+camera rotate 165 167 0 0 0
+camera move 165 168 0 9 -38
+
+endstory 180 180

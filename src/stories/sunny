@@ -1,0 +1,94 @@
+penguin visible 0 120
+hat visible 0 120
+
+hat move 0 0 0 3.2 0
+
+penguin follow 0 120 island
+hat follow 0 120 penguin
+
+sunglasses move 0 0 0 1.5 0
+sunglasses follow 0 120 penguin
+sunglasses visible 1 120
+
+camera move 1 8 0 4.8 -25
+camera move 8 10 0 4.8 -15
+
+penguin leftarm 6 7 -1 0 0
+penguin leftarm 7 7.5 0 0 0
+penguin leftarm 7.5 8 0 2 0
+penguin leftarm 8 9 -1 2 0
+
+sunglasses move 7 7.5 -1 1.5 0
+sunglasses move 7.5 8 -1 2.5 0
+sunglasses move 8 9 0 3 -0.8
+
+penguin leftarm 9 11 0 0 0
+
+camera rotate 12 15 0 20 0
+
+penguin rotate 13 13.5 0 90 0
+penguin walk 13.5 15 -4 0 0
+penguin rotate 15 15.5 0 0 0
+penguin move 15 15.5 -4 -0.5 0
+penguin leftfoot 15 15.5 40 0 0
+penguin rightfoot 15 15.5 40 0 0
+
+penguin rightarm 11 12 1 1.5 0
+penguin rightarm 12 13 0 0 0
+penguin leftarm 11 12 1 1.5 0
+penguin leftarm 12 13 0 0 0
+penguin rightarm 13 14 1 2.5 0
+penguin rightarm 14 15 0 0 0
+penguin leftarm 13 14 1 2.5 0
+penguin leftarm 14 15 0 0 0
+
+penguin rotate 15.5 16 20 0 0
+penguin move 15.5 16 -4 -0.5 -0.5
+
+camera move 15.5 20 -4 6 -28
+camera rotate 15.5 19 0 0 0
+
+camera move 21 21 -4 14 -18
+camera rotate 21 21 -20 0 0
+
+penguin rightarm 21 22 1 1.5 0
+penguin rightarm 22 23 0 0 0
+penguin leftarm 21 22 1 1.5 0
+penguin leftarm 22 23 0 0 0
+penguin rightarm 23 24 1 2.5 0
+penguin rightarm 24 25 0 0 0
+penguin leftarm 23 24 1 2.5 0
+penguin leftarm 24 25 0 0 0
+
+camera move 22 33 -30 6 -18
+
+camera rotate 22 33 5 -60 0
+camera move 33 45 -45 5 -25
+
+penguin move 83 84 -4 0 0
+penguin rotate 83 84 0 -45 0
+penguin leftfoot 83 84 0 0 0
+penguin rightfoot 83 84 0 0 0
+
+penguin walk 84 86 0 0 0
+penguin rotate 86 86.5 0 0 0
+
+camera rotate 90 95 0 0 0
+camera move 88 95 0 6 -25
+
+penguin leftarm 95 96 -1 2 0
+penguin leftarm 96 96.5 0 2 0
+penguin leftarm 96.5 97  0 0 0
+penguin leftarm 97 98 -1 0 0
+penguin leftarm 98 99 0 0 0
+
+sunglasses move 96 97 -1 2.5 0
+sunglasses move 97 97.5 -1 1 0
+sunglasses move 97.5 98 0 1 0
+
+penguin openmouth 96 97 0.3
+penguin openmouth 98 99 0
+
+camera move 100 115 0 9 -38
+
+endstory 119 119

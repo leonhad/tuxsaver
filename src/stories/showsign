@@ -1,0 +1,142 @@
+loadobject sign sign.ac
+
+penguin visible 0 160
+hat visible 0 160
+
+penguin follow 0 160 island
+sign follow 0 36 penguin
+sign follow 36 78 island
+sign follow 78 160 penguin
+
+sign visible 6 86
+
+sign rotate 2 2 0 180 0
+
+hat follow 0 160 penguin
+hat move 0 0 0 3.2 0
+
+penguin rotate 1 2 0 180 0
+penguin walk 2 3 0 0 7
+penguin walk 3 5 -5 0 7
+
+penguin leftarm 5 6 -0.3 1 1.5
+penguin rightarm 5 6 -0.3 1 1.5
+sign move 5 6 0 0.8 -1.5
+
+penguin rotate 6 7 0 -90 0
+penguin walk 7 8 0 0 7
+penguin rotate 8 8.5 0 0 0
+penguin walk 8.5 10 0 0 0
+
+#penguin rotate 10 10.4 0 360 0
+penguin rotate 10 10.2 0 0 0
+
+#sign up and down
+penguin leftarm 11 11.5 -0.3 0.5 1.5
+penguin rightarm 11 11.5 -0.3 0.5 1.5
+sign move 11 11.5 0 0.4 -1.5
+
+penguin leftarm 11.5 11.8 -0.3 1 1.5
+penguin rightarm 11.5 11.8 -0.3 1 1.5
+sign move 12 12.5 0 0.8 -1.5
+
+#sign up and down
+penguin leftarm 13 13.5 -0.3 0.5 1.5
+penguin rightarm 13 13.5 -0.3 0.5- 1.5
+sign move 13 13.5 0 0.4 -1.2
+
+penguin leftarm 13.5 13.8 -0.3 1 1.5
+penguin rightarm 13.5 13.8 -0.3 1 1.5
+sign move 14 14.5 0 0.8 -1.2
+
+penguin rotate 15 16 0 -90 0
+
+#sign up and down
+penguin leftarm 15 15.5 -0.3 0.5 1.5
+penguin rightarm 15 15.5 -0.3 0.5 1.5
+sign move 15 15.5 0 0.4 -1.5
+
+penguin leftarm 15.5 15.8 -0.3 1 1.5
+penguin rightarm 15.5 15.8 -0.3 1 1.5
+sign move 15.5 15.8 0 0.8 -1.5
+
+penguin walk 17 18 4 0 0
+
+#sign up and down
+penguin leftarm 19 19.5 -0.3 0.5 1.5
+penguin rightarm 19 19.5 -0.3 0.5 1.5
+sign move 19 19.5 0 0.4 -1.5
+
+penguin leftarm 20 20.5 -0.3 1 1.5
+penguin rightarm 20 20.5 -0.3 1 1.5
+sign move 20 20.5 0 0.8 -1.5
+
+#sign up and down
+penguin leftarm 22 22.5 -0.3 0.5 1.5
+penguin rightarm 22 22.5 -0.3 0.5 1.5
+sign move 22 22.5 0 0.4 -1.5
+
+penguin leftarm 23 23.5 -0.3 1 1.5
+penguin rightarm 23 23.5 -0.3 1 1.5
+sign move 23 23.5 0 0.8 -1.5
+
+penguin rotate 24 25 0 90 0
+penguin walk 25 27 0 0 0
+
+penguin rotate 27 28 0 0 0
+
+sign move 29 31 0 0 -1.5
+
+camera move 30 32 0 4 -12
+camera rotate 30 32 4 0 0
+
+sign move 34 35 0 -0.3 -1.5
+
+camera move 36 50 0 4 -40
+camera rotate 36 42 10 0 0
+
+penguin rotate 45 46 0 90 0
+penguin walk 46 47 -5 0 0
+penguin rotate 47 47.5 0 0 0
+
+penguin leftarm 44 45 0 0 0
+penguin rightarm 44 45 0 0 0
+penguin rightarm 47.5 48 0.6 0.3 0
+
+#tux waits
+
+penguin rightarm 75 75.5 0 0 0
+penguin rotate 75 76 0 -90 0
+penguin walk 76 77 0 0 0
+penguin rotate 77 77.5 0 0 0
+
+penguin rightarm 77 78 -0.3 0.5 1.5
+penguin leftarm 77 78 -0.3 0.5 1.5
+
+penguin rotate 78.5 79 0 90 0
+penguin walk 79 80 -5 0 0
+penguin rotate 80 80.5 0 180 0
+
+#sign up and down
+penguin leftarm 84 84.5 -0.3 0.5 1.5
+penguin rightarm 84 84.5 -0.3 0.5 1.5
+sign move 84 84.5 0 0.4 -1.5
+
+penguin leftarm 84.5 84.8 -0.3 1 1.5
+penguin rightarm 84.5 84.8 -0.3 1 1.5
+sign move 84.5 85 0 8 -1.5
+sign move 85 85.5 0 -1 -5.5
+
+
+penguin leftarm 85 86 0 0 0
+penguin rightarm 85 86 0 0 0
+
+penguin rotate 86 86.5 0 180 0
+
+penguin rotate 88 88.5 0 270 0
+penguin walk 88.5 90 0 0 0
+
+penguin rotate 90 91 0 360 0
+penguin rotate 92 92 0 0 0
+
+endstory 100 100

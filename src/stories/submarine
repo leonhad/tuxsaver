@@ -1,0 +1,127 @@
+loadobject sub submarine.ac
+
+penguin visible 0 240
+hat visible 0 240
+sub visible 0 165
+
+sub follow 0 240 world
+
+penguin follow 0 106 island
+penguin follow 106 165 sub
+penguin follow 165 240 island
+
+hat follow 0 240 penguin
+
+hat move 0 0 0 3.2 0
+
+sub move 0 0 50 -16 -12
+
+sub move 10 20 0 -16 -12
+sub rotate 23 30 0 -90 0
+sub rotate 33 45 0 90 0
+
+penguin walk 21 23 0 0 -8
+penguin rotate 23 23.5 0 0 0
+penguin openmounth 21 22 0.4
+penguin openmounth 22 22.5 0
+
+penguin leftarm 38 38.5 1 2 0
+penguin rightarm 38 38.5 1 2 0
+penguin leftarm 38.5 39 0 0 0
+penguin rightarm 38.5 39 0 0 0
+
+penguin leftarm 48 48.5 1 2 0
+penguin rightarm 48 48.5 1 2 0
+penguin leftarm 48.5 49 0 0 0
+penguin rightarm 48.5 49 0 0 0
+
+penguin rotate 45 46 -10 0 0
+penguin leftfoot 45 46 -10 0 0
+penguin rightfoot 45 46 -10 0 0
+
+penguin rotate 50 51 0 0 0
+penguin leftfoot 50 51 0 0 0
+penguin rightfoot 50 51 0 0 0
+
+sub rotate 47 52 0 0 0
+sub move 54 65 -50 -16 20
+
+penguin rotate 54 56 0 90 0
+
+sub rotate 66 66 0 180 0
+sub move 66 77 70 -16 20
+
+penguin rotate 67 75 0 270 0
+
+penguin rotate 76 77 0 180 0
+penguin walk 77 81 0 0 8
+
+penguin rotate 81 82 0 270 0
+
+penguin rotate 82 92 0 180 0
+
+camera rotate 66 80 8 0 0
+camera move 66 80 0 12 -65
+
+sub rotate 78 78 0 0 0
+sub move 82 92 -2 -10 18
+
+sub move 95 102 -10 -7 14
+
+#tux jumps on board
+penguin move 105 105.5 0 2 10
+penguin move 105.5 105.9 0 0.5 13
+
+penguin move 106 106 10 7.5 0
+
+penguin rotate 107 108 0 270 0
+penguin walk 108 110 15 7.5 0
+
+penguin rotate 112 113 0 90 0
+penguin walk 113 115 11 7.5 0
+
+penguin rotate 115 115.5 0 90 0
+penguin move 116 116.5 9 12 0
+penguin move 116.5 117 7 10.5 0
+
+camera move 120 120 -60 6 1
+camera rotate 120 120 10 -90 0
+
+camera rotate 121 126 10 -75 0
+
+penguin walk 127 129 4 8.5 0
+penguin rotate 125 125.5 0 90 0
+
+camera move 135 140 -70 7 1
+
+sub move 130 148 -100 -9 14
+
+penguin rotate 132 136 0 -60 0
+
+sub rotate 149 149 0 215 0
+sub move 149 149 -70 -9 50
+
+sub move 150 162 100 -9 -10
+
+camera rotate 158 162 10 -60 0
+
+#reset some stuff
+#penguin rotate 166 166 0 0 0
+#sub move 166 166 0 -9 60
+#sub rotate 166 166 0 -90 0
+#camera rotate 166 166 0 0 0
+#camera move 166 166 2 5 0
+
+#sub move 167 190 0 -20 -10
+
+#penguin move 175 175 0 -2 15
+
+#penguin move 175.1 177 0 0 15
+
+penguin move 170 170 0 0 0
+penguin rotate 170 170 0 0 0
+
+camera rotate 170 170 0 0 0
+camera move 170 170 0 9 -38
+
+endstory 175 175

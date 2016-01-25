@@ -1,0 +1,94 @@
+penguin visible 5 60
+hat visible 46 60
+penguin follow 5 60 island
+hat follow 46 60 penguin
+
+hat move 46 46 0 3.2 0
+
+#camera in zee
+
+camera rotate 0 0 20 -10 0
+camera move 0 0 15 -0.3 -35
+
+#tux komt voor camera
+
+penguin rotate 5 5 0 -50 -30
+penguin move 5 5 12 -8 5
+penguin move 5 6 14 -2 5
+penguin move 6 7 14 -2.5 5
+
+#tux zwemt
+
+penguin walk 7 15 26 -2.5 0
+
+#draaien
+
+penguin move 15 15.5 27 -2.5 -1.5
+penguin move 15.5 16 28 -2.5 -3
+penguin rotate 15 16 0 50 30
+
+#zwemmen
+
+penguin walk 16 25 14 -2.5 -5
+
+#draaien
+
+penguin move 25 25.5 12.5 -3 -6.5
+penguin move 25.5 26 14 -2.5 -8
+penguin rotate 25 26 0 -50 -30
+
+#tux duikt
+
+penguin move 26 27 16 -0 -8
+penguin rotate 26 27 0 -60 -127
+penguin move 27 28 20 -6 -8
+
+#tux doet jump
+playsound 26 26 splash.ogg
+penguin rotate 28 28 0 80 45
+penguin move 29 29 27 -6 -8
+penguin move 30 31 23 1.2 -8
+penguin move 31 32 19 -5 -8
+penguin rotate 30.5 31.5 0 80 127
+
+#camera nr eiland
+playsound 31 31 splash.ogg
+camera rotate 31 35 20 0 0
+camera move 31 35 10 -0.3 -38
+
+#tux doet jump again
+playsound 34 34 splash.ogg
+penguin rotate 32 32 0 80 45
+penguin move 32.2 32.2 17 -6 -8
+penguin move 33 34 13 1.3 -8
+penguin move 34 35 9 -7 -8
+penguin rotate 33.5 34.5 0 80 127
+
+#tux gaat op eiland
+
+penguin move 35.1 35.1 -8 0 -8
+penguin rotate 35.2 35.2 0 -127 0
+
+#camera zet zich op de goede plaats
+
+camera move 36 40 0 9 -38
+camera rotate 36 40 0 0 0
+
+#tux gaat hoed halen...
+playsound 44 44 up.ogg
+playsound 45 45 up.ogg
+playsound 46 46 down.ogg
+
+penguin walk 39 42 0 0 2
+penguin walk 42 42.5 1 0 3
+penguin walk 42.5 43 0 0 4
+penguin rotate 42 43 0 -225 0
+penguin walk 43 46 -7 0 10
+penguin walk 43 46 -7 0 10 
+
+penguin rotate 46 46 0 -45 0
+penguin walk 46 49 0 0 4
+penguin walk 49 50 0 0 0
+penguin rotate 48 50 0 0 0
+
+endstory 60 60

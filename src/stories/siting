@@ -1,0 +1,89 @@
+penguin visible 0 70
+hat visible 0 70
+
+hat move 0 0 0 3.2 0
+
+penguin follow 0 70 island
+hat follow 0 34 penguin
+hat follow 34 48.5 island
+hat follow 48.5 70 penguin
+
+penguin move 0 1 0 1.5 0
+penguin move 1 1.7 0 -0.35 0
+penguin rotate 0.1 1.5 0 -360 0
+playsound 1.4 1.4 down.ogg
+
+penguin leftfoot 1 1.5 40 0 0
+penguin rightfoot 1 1.5 40 0 0
+
+#penguin zegt hallo
+
+penguin leftarm 1.5 2 1 2.5 0
+penguin leftarm 2 2.5 0 0 0
+penguin leftarm 3 3.5 0 0 0
+penguin leftarm 3.6 4 1 2.5 0
+penguin leftarm 4 4.5 0 0 0
+
+penguin rightarm 1.5 2 1 2.5 0
+penguin rightarm 2 2.5 0 0 0
+penguin rightarm 3 3.5 0 0 0
+penguin rightarm 3.5 4 1 2.5 0
+penguin rightarm 4 4.5 0 0 0
+
+penguin leftarm 4.5 5 1 2.5 0 
+penguin leftarm 5 5.5 0 0 0
+penguin leftarm 5.5 6 1 2.5 0
+penguin leftarm 6 6.5 0 0 0
+penguin leftarm 6.5 7 1 2.5 0
+penguin leftarm 7 7.5 0 0 0
+
+penguin rightarm 4.5 5 1 2.5 0
+penguin rightarm 5 5.5 0 0 0
+penguin rightarm 5.5 6 1 2.5 0
+penguin rightarm 6 6.5 0 0 0
+penguin rightarm 6.5 7 1 2.5 0
+penguin rightarm 7 7.5 0 0 0
+
+#met de camera bewegen
+camera move 2 4 15 28 -40
+camera rotate 2 4 -20 20 0
+
+camera move 9 9 0 5 -14
+camera rotate 9 9 0 0 0
+
+#penguin wagelt
+
+penguin rotate 9 9.5 0 -360 5
+penguin rotate 9.5 10 0 -360 -5
+penguin rotate 10 10.5 0 -360 5
+penguin rotate 10.5 11 0 -360 -5
+penguin rotate 11 11.5 0 -360 5
+penguin rotate 11.5 12 0 -360 -5
+penguin rotate 12 12.5 0 -360 5
+penguin rotate 12.5 13 0 -360 -5
+penguin rotate 13 13.5 0 -360 5
+penguin rotate 13.5 14 0 -360 -5
+penguin rotate 14 14.5 0 -360 5
+penguin rotate 14.5 15 0 -360 -5
+penguin rotate 15 15.5 0 -360 5
+penguin rotate 15.5 16 0 -360 -5
+penguin rotate 16 16.5 0 -360 5
+penguin rotate 16.5 17 0 -360 -5
+penguin rotate 17 17.5 0 -360 0
+
+#penguin draait rond
+camera move 18 18 18 6 0
+camera rotate 18 18 0 90 0
+penguin rotate 18 20 0 0 0
+
+#penguin gaat weer rechtstaat
+penguin move 20 20.5 0 1 0
+penguin move 20.5 21 0 0 0
+penguin leftfoot 20.2 20.8 0 0 0
+penguin rightfoot 20.2 20.8 0 0 0
+playsound 20.7 20.7 up.ogg
+
+camera rotate 22 25 0 0 0
+camera move 22 25 0 9 -38
+
+endstory 30 30

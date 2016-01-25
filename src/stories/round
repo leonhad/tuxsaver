@@ -1,0 +1,38 @@
+penguin visible 0 100
+hat visible 0 100
+hat follow 0 100 penguin
+penguin follow 0 100 island
+
+hat move 0 0 0 3.2 0
+penguin walk 1 6 0.2 0 -6
+
+penguin rightarm 1 2 1 1.5 0
+penguin rightarm 2 3 0 0 0
+penguin leftarm 1 2 1 1.5 0
+penguin leftarm 2 3 0 0 0
+penguin rightarm 3 4 1 2.5 0
+penguin rightarm 4 5 0 0 0
+penguin leftarm 3 4 1 2.5 0
+penguin leftarm 4 5 0 0 0
+penguin rotate 6 6.5 0 -90 0
+
+penguin move 7 7.4 3 2 -6
+penguin move 7.4 7.5 4 2 -6
+penguin move 7.5 7.9 7 0 -6
+
+playsound 7.5 7.5 up.ogg
+
+penguin rotate 8 9 0 -215 0
+
+penguin rightarm 9 9.5 1.5 2.5 0
+penguin rightarm 9.5 10 0 0 0
+penguin leftarm 9 9.5 1.5 2.5 0
+penguin leftarm 9.5 10 0 0 0
+
+penguin walk 9 11 3 0 -3
+penguin move 11 11.5 1.5 1.5 -1.5
+penguin move 11.5 12 0 0 0
+
+penguin rotate 11.1 11.9 0 0 0
+endstory 15 15
+

@@ -1,0 +1,91 @@
+penguin visible 0 41
+hat visible 0 41
+penguin hat follow 0 41
+penguin follow 0 41 island
+hat follow 0 41 penguin
+
+hat move 0 0 0 3.2 0
+penguin walk 0.5 6 0 0 -8
+penguin rightarm 1 2 1 1.5 0
+penguin rightarm 2 3 0 0 0
+penguin leftarm 1 2 1 1.5 0
+penguin leftarm 2 3 0 0 0
+penguin rightarm 3 4 1 2.5 0
+penguin rightarm 4 5 0 0 0
+penguin leftarm 3 4 1 2.5 0
+penguin leftarm 4 5 0 0 0
+penguin walk 6 11 0 0 0
+penguin rightarm 7 8 1 1.5 0
+penguin rightarm 8 9 0 0 0
+penguin leftarm 7 8 1 1.5 0
+penguin leftarm 8 9 0 0 0
+penguin rightarm 9 10 1 2.5 0
+penguin rightarm 10 11 0 0 0
+penguin leftarm 9 10 1 2.5 0
+penguin leftarm 10 11 0 0 0
+penguin walk 11 15 8 0 0
+penguin rightarm 11 12 1 1.5 0
+penguin rightarm 12 13 0 0 0
+penguin leftarm 11 12 1 1.5 0
+penguin leftarm 12 13 0 0 0
+penguin rightarm 13 14 1 2.5 0
+penguin rightarm 14 15 0 0 0
+penguin leftarm 13 14 1 2.5 0
+penguin leftarm 14 15 0 0 0
+#walk to the other side
+penguin walk 15 23 -8 0 0
+penguin rightarm 15 16 1 1.5 0
+penguin rightarm 16 17 0 0 0
+penguin leftarm 15 16 1 1.5 0
+penguin leftarm 16 17 0 0 0
+penguin rightarm 17 18 1 2.5 0
+penguin rightarm 18 19 0 0 0
+penguin leftarm 17 18 1 2.5 0
+penguin leftarm 18 19 0 0 0
+penguin rightarm 19 20 1 2.5 0
+penguin rightarm 20 21 0 0 0
+penguin leftarm 19 20 1 2.5 0
+penguin leftarm 20 21 0 0 0
+penguin rightarm 21 22 1 2.5 0
+penguin rightarm 22 23 0 0 0
+penguin leftarm 21 22 1 2.5 0
+penguin leftarm 22 23 0 0 0
+#walk back
+penguin walk 23 27 0 0 0
+penguin rightarm 23 24 1 1.5 0
+penguin rightarm 24 25 0 0 0
+penguin leftarm 23 24 1 1.5 0
+penguin leftarm 24 25 0 0 0
+penguin rightarm 25 26 1 2.5 0
+penguin rightarm 26 27 0 0 0
+penguin leftarm 25 26 1 2.5 0
+penguin leftarm 26 27 0 0 0
+
+penguin openmouth 1 1.5 0.3
+penguin openmouth 1.5 2 0
+penguin openmouth 2 2.5 0.3
+penguin openmouth 2.5 3 0
+penguin openmouth 3 3.5 0.3
+penguin openmouth 3.5 4 0
+
+penguin rotate 27 27.5 0 0 0
+penguin openmouth 28 28.5 0.3
+penguin openmouth 28.5 29 0
+penguin openmouth 29 29.5 0.3
+penguin openmouth 29.5 30 0
+penguin leftarm 28 29 1 2.5 0
+penguin leftarm 30 31 0 0 1
+
+penguin rotate 32 33 -60 0 0
+penguin move 32 33 0 0.5 0
+penguin leftfoot 32 33 40 0 0
+penguin rightfoot 32 33 40 0 0
+
+penguin rotate 33 34 0 0 0
+penguin move 33 34 0 0 0
+penguin leftfoot 33 34 0 0 0
+penguin rightfoot 33 34 0 0 0
+
+penguin leftarm 34 35 0 0 0
+
+endstory 40 40

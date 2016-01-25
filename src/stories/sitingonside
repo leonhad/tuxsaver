@@ -1,0 +1,147 @@
+penguin visible 0 70
+hat visible 0 70
+
+hat move 0 0 0 3.2 0
+
+penguin follow 0 70 island
+hat follow 0 34 penguin
+hat follow 34 48.5 island
+hat follow 48.5 70 penguin
+
+penguin rotate 0.2 0.2 0 0 0
+
+camera move 3 5 -4 6 -30
+camera rotate 3 5 -2 -10 0
+penguin walk 3 5 0 0 -9.5
+
+penguin rotate 5 6 0 0 0
+penguin leftfoot 5 6 40 0 0
+penguin rightfoot 5 6 40 0 0
+penguin move 5 6 0 -0.75 -10.5
+
+penguin leftfoot 6 6.5 20 0 0
+penguin leftfoot 6.5 7 40 0 0
+penguin rightfoot 7 7.5 20 0 0
+penguin rightfoot 7.5 8 40 0 0
+penguin leftfoot 8 8.5 20 0 0
+penguin leftfoot 8.5 9 40 0 0
+penguin rightfoot 9 9.5 20 0 0
+penguin rightfoot 9.5 10 40 0 0
+penguin leftfoot 10 10.5 20 0 0
+penguin leftfoot 10.5 11 40 0 0
+penguin rightfoot 11 11.5 20 0 0
+penguin rightfoot 11.5 12 40 0 0
+penguin leftfoot 12 12.5 20 0 0
+penguin leftfoot 12.5 13 40 0 0
+penguin rightfoot 13 13.5 20 0 0
+penguin rightfoot 13.5 14 40 0 0
+penguin leftfoot 14 14.5 20 0 0
+penguin leftfoot 14.5 15 40 0 0
+penguin rightfoot 15 15.5 20 0 0
+penguin rightfoot 15.5 16 40 0 0
+penguin leftfoot 16 16.5 20 0 0
+penguin leftfoot 16.5 17 40 0 0
+penguin rightfoot 17 17.5 20 0 0
+penguin rightfoot 17.5 18 40 0 0
+penguin leftfoot 18 18.5 20 0 0
+penguin leftfoot 18.5 19 40 0 0
+penguin rightfoot 19 19.5 20 0 0
+penguin rightfoot 19.5 20 40 0 0
+penguin leftfoot 20 20.5 20 0 0
+penguin leftfoot 20.5 21 40 0 0
+penguin rightfoot 21 21.5 20 0 0
+penguin rightfoot 21.5 22 40 0 0
+penguin leftfoot 22 22.5 20 0 0
+penguin leftfoot 22.5 23 40 0 0
+penguin rightfoot 23 23.5 20 0 0
+penguin rightfoot 23.5 24 40 0 0
+penguin leftfoot 24 24.5 20 0 0
+penguin leftfoot 24.5 25 40 0 0
+penguin rightfoot 25 25.5 20 0 0
+penguin rightfoot 25.5 26 40 0 0
+penguin leftfoot 26 26.5 20 0 0
+penguin leftfoot 26.5 27 40 0 0
+penguin rightfoot 27 27.5 20 0 0
+penguin rightfoot 27.5 28 40 0 0
+penguin rotate 6 7 10 0 0
+penguin rotate 7 8 0 0 0
+penguin rotate 8 9 10 0 0
+penguin rotate 9 10 0 0 0
+penguin rotate 10 11 10 0 0
+penguin rotate 11 12 0 0 0
+penguin rotate 12 13 10 0 0
+penguin rotate 13 14 0 0 0
+penguin rotate 14 15 10 0 0
+penguin rotate 15 16 0 0 0
+penguin rotate 16 17 10 0 0
+penguin rotate 17 18 0 0 0
+penguin rotate 18 19 10 0 0
+penguin rotate 19 20 0 0 0
+penguin rotate 20 21 10 0 0
+penguin rotate 21 22 0 0 0
+penguin rotate 22 23 10 0 0
+penguin rotate 23 24 0 0 0
+penguin rotate 24 25 10 0 0
+penguin rotate 25 26 0 0 0
+penguin rotate 26 27 10 0 0
+penguin rotate 27 28 0 0 0
+penguin rotate 28 29 10 0 0
+penguin rotate 29 30 0 0 0
+
+penguin openmouth 42 43 0.5
+penguin openmouth 43 44 0
+penguin openmouth 44 45 0.5
+penguin openmouth 45 46 0
+
+camera move 10 10 -1 3 18
+camera rotate 10 10 10 180 0
+camera move 10.2 17.5 -4 5 14
+
+camera move 18 18 -4 6 -30
+camera rotate 18 18 -2 -10 0
+camera move 22 22 7 4 -18
+camera rotate 22 22 0 45 0
+penguin leftarm 31 32 0 2.8 0
+
+penguin leftarm 32 32.5 0 3 0
+penguin leftarm 32.5 33 1 2.5 0
+penguin leftarm 33 34 0 0 0
+hat move 32 32.5 0 4.2 0
+hat move 32.5 33 -3 3.2 0
+hat move 33 33.9 -3 0.75 0
+
+camera move 33 40 0 6 -28
+camera rotate 33 40 0 0 0
+
+camera move 40 43 0 -4 -25
+camera rotate 40 43 30 0 0
+
+penguin rotate 42 44 -25 0 0
+penguin leftarm 42 44 -0.5 1 2
+penguin rightarm 42 44 -0.5 1 2
+penguin leftarm 44 45 -0.5 2.5 0
+penguin leftarm 46 47 0 0 0
+
+hat move 47 47.5 -3 0 -10.5
+hat move 47.5 48 -3 2.8 -10.5
+hat move 48.5 48.5 0 3.29 0
+
+penguin leftarm 47.5 48 1 2.5 0
+penguin leftarm 48 48.5 0 2.5 0
+penguin leftarm 48.5 50 0 0 0
+penguin rightarm 48.5 50 0 0 0
+
+penguin rotate 50 52 0 0 0
+camera move 50 52 0 5 -20
+camera rotate 50 52 0 0 0
+penguin move 52 53 0 0 -10
+penguin leftfoot 52 53 0 0 0
+penguin rightfoot 52 53 0 0 0
+
+penguin rotate 53 54 0 -180 0
+penguin walk 54 58 0 0 0
+penguin rotate 58 60 0 0 0
+
+camera rotate 55 62 0 0 0
+camera move 55 62 0 9 -38
+endstory 62 62

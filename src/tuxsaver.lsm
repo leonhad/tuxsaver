@@ -1,0 +1,16 @@
+Begin3
+Title:          tuxsaver -- Some description
+Version:        1.0
+Entered-date:   
+Description:    
+Keywords:       KDE Qt
+Author:         koen muylkens <koen dot muylkens at pandora dot be>
+Maintained-by:  koen muylkens <koen dot muylkens at pandora dot be>
+Home-page:      
+Alternate-site: 
+Primary-site:   ftp://ftp.kde.org/pub/kde/unstable/apps/utils
+                xxxxxx  tuxsaver-1.0.tar.gz
+                xxx     tuxsaver-1.0.lsm
+Platform:       Linux. Needs KDE
+Copying-policy: GPL
+End

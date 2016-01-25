@@ -1,0 +1,24 @@
+loadobject titanic titanic3.ac
+
+penguin visible 0 45
+hat visible 0 45
+titanic visible 15 27
+
+titanic follow 0 27 world
+
+penguin follow 0 45 island
+
+hat follow 0 45 penguin
+
+hat move 0 0 0 3.2 0
+
+titanic move 0 0 100 0 60
+
+camera rotate 1 10 10 0 0
+camera move 1 10 0 11 -68
+titanic move 15 27 -60 0 20
+
+camera rotate 32 39 0 0 0
+camera move 32 39 0 9 -38
+
+endstory 40 40

@@ -1,0 +1,56 @@
+loadobject fish vis.ac
+
+hat visible 0 200
+hat follow 0 200 penguin
+penguin visible 0 200
+penguin follow 0 200 island
+fish visible 0 200
+fish follow 0 200 world
+
+hat move 0 0 0 3.2 0
+camera move 0 0 0 12 -50
+
+penguin move 1 1.5 0 1 0
+penguin move 1.5 2 0 0 0
+
+penguin move 2 2.5 0 2 0
+penguin move 2.5 3 0 0 0
+
+penguin move 3 3.5 0 2.5 0
+penguin move 3.5 4 0 0 0
+
+penguin move 4 4.5 0 2.5 0
+penguin move 4.5 5 0 0 0
+
+penguin move 5 5.5 0 2 0
+penguin move 5.5 6 0 0 0
+
+penguin move 6 6.5 0 1 0
+penguin move 6.5 7 0 0 0
+
+fish move 0 0 40 -20 2
+fish rotate 0 0 0 0 -40
+
+fish move 3 6 0 13 2
+fish move 6 9 -40 -20 2
+
+fish rotate 4.5 7.5 0 0 40
+
+penguin rotate 3 4 0 -90 0
+penguin rotate 4 8 0 -270 0
+
+fish rotate 9 9 0 -180 40
+fish move 11 14 0 6 -2
+fish move 14 17 40 -20 -2
+fish rotate 12.5 15 0 -180 -40
+
+camera rotate 6 13 -10 60 0
+camera move 6 13 50 25 -30
+
+penguin rotate 10.5 11 0 -410 0
+penguin walk 10.5 12 4 0 -6
+penguin move 12 12.5 4.5 2 -6.5
+penguin move 12.5 13 5.5 0 -7
+penguin rotate 12 12.5 -30 -410 -80
+
+endstory 20 20

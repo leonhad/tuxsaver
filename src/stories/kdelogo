@@ -1,0 +1,134 @@
+loadobject kd kdlogo.ac
+loadobject e elogo.ac
+
+penguin visible 0 130
+hat visible 0 130
+island visible 0 0
+world visible 0 0
+
+kd visible 2 130
+kd follow 0 130 world
+e visible 2 130
+e follow 0 130 world
+
+penguin follow 0 78 world
+hat follow 0 130 penguin
+
+hat move 0 0 0 3.2 0
+
+kd move 0 0 30 0 20
+e move 0 0 30 0 20
+
+camera move 0 0 0 3 -38
+camera rotate 0 0 14 0 0
+
+penguin leftarm 1 1.5 1 2.5 0
+penguin leftarm 1.5 2 0 0 0
+penguin leftarm 2 2.5 1 2.5 0
+penguin leftarm 2.5 3 0 0 0
+
+penguin rotate 4 4.5 0 -90 0
+penguin walk 4.5 11 30 0 0
+
+#bring it on....
+penguin move 11 11 33 0 20
+penguin rotate 11 11 0 90 0
+penguin leftarm 11 11 0 1 1.5
+penguin rightarm 11 11 0 1 1.5
+
+penguin walk 12 20 13 0 20
+kd move 12 20 0 0 20
+e move 12 20 0 0 20
+
+#e falls
+e rotate 21.5 21.8 0 0 3
+
+#kde is located
+penguin rotate 22 22.3 0 0 0
+penguin walk 22.3 24 13 0 10
+penguin rotate 24 24.3 0 90 0
+penguin walk 24.3 28 -13 0 10
+penguin rotate 28 28.3 0 180 0
+penguin walk 28.3 30 -13 0 20
+penguin rotate 30 30.3 0 270 0
+
+penguin rotate 35 35.3 0 360 0
+penguin walk 35.3 37 -13 0 10
+penguin leftarm 36 37 0 0 0
+penguin rightarm 36 37 0 0 0
+
+penguin rotate 37 37.2 0 330 0
+penguin walk 37.2 43 5 0 -30
+
+penguin rotate 45 45 0 90 0
+penguin move 45 45 10 0 -20
+penguin walk 46 48 3 0 -20
+penguin rotate 48 48.3 0 115 0
+
+playsound 40 40 thx.ogg
+
+e rotate 55 59 0 0 0
+
+kd move 59 59.2 0 0 25
+e move 59 59.2 0 0 25
+kd move 59.2 59.5 0 0 20
+e move 59.2 59.5 0 0 20
+kd move 59.5 59.7 0 0 25
+e move 59.5 59.7 0 0 25
+kd move 59.7 60 0 0 20
+e move 59.7 60 0 0 20
+
+kd move 60 60.2 0 0 25
+e move 60 60.2 0 0 25
+kd move 60.2 60.5 0 0 20
+e move 60.2 60.5 0 0 20
+kd move 60.5 60.7 0 0 25
+e move 60.5 60.7 0 0 25
+kd move 60.7 61 0 0 20
+e move 60.7 61 0 0 20
+
+kd move 61 61.2 0 0 25
+e move 61 61.2 0 0 25
+kd move 61.2 61.5 0 0 20
+e move 61.2 61.5 0 0 20
+kd move 61.5 61.7 0 0 25
+e move 61.5 61.7 0 0 25
+kd move 61.7 62 0 0 20
+e move 61.7 62 0 0 20
+
+#tux jumps
+penguin move 62 62.2 3 2 -20
+penguin move 62.2 62.5 3 0 -20
+
+penguin leftarm 62 62.2 1 2.5 0
+penguin rightarm 62 62.2 1 2.5 0
+penguin leftarm 62.2 62.5 0 0 0
+penguin rightarm 62.2 62.5 0 0 0
+
+penguin move 63 63.2 3 2 -20
+penguin move 63.2 63.5 3 0 -20
+
+penguin leftarm 63 63.2 1 2.5 0
+penguin rightarm 63 63.2 1 2.5 0
+penguin leftarm 63.2 63.5 0 0 0
+penguin rightarm 63.2 63.5 0 0 0
+penguin openmouth 63 63.2 0.5
+penguin openmouth 63.2 63.5 0
+
+penguin rotate 66 66.3 0 180 0
+penguin walk 66.3 75 0 0 140
+
+kd move 65 72 0 0 150
+e move 65 72 0 0 150
+
+island visible 80 84
+world visible 80 84
+
+penguin follow 78 85 island
+
+penguin move 80 80 0 0 0
+penguin rotate 80 80 0 0 0
+camera move 80 80 0 9 -38
+camera rotate 80 80 0 0 0
+
+endstory 84 84

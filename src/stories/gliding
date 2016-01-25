@@ -1,0 +1,118 @@
+penguin visible 0 27
+hat visible 0 27
+penguin follow 0 27 island
+hat follow 0 27 penguin
+hat move 0 0 0 3.2 0
+
+#gaan zitten
+penguin move 1 1.8 0 1.5 0
+penguin rotate 1.1 2.4 0 -310 -15
+penguin move 1.9 2.7 0 -0.4 0
+
+penguin leftfoot 1.1 2.4 40 0 0
+penguin rightfoot 1.1 2.4 40 0 0
+
+#camera...
+camera rotate 3 5 4 15 0
+camera move 3 5 4 7 -28
+
+#wegwaggellen
+penguin move 6 14 -5 -0.4 -4
+
+playsound 6 6 down.ogg
+playsound 7 7 up.ogg
+playsound 8 8 down.ogg
+playsound 9 9 up.ogg
+playsound 10 10 down.ogg
+playsound 13 13 up.og
+
+#armen...
+penguin leftarm 5.5 6 0 0 1.2
+penguin rightarm 5.5 6 0 0 1.2
+
+penguin leftarm 6 6.5 0 0 -1
+penguin rightarm 6 6.5 0 0 -1
+
+penguin leftarm 6.5 7 0 0 1.2
+penguin rightarm 6.5 7 0 0 1.2
+
+penguin leftarm 7 7.5 0 0 -1
+penguin rightarm 7 7.5 0 0 -1
+
+penguin leftarm 7.5 8 0 0 1.2
+penguin rightarm 7.5 8 0 0 1.2
+
+penguin leftarm 8 8.5 0 0 -1
+penguin rightarm 8 8.5 0 0 -1
+
+penguin leftarm 8.5 9 0 0 1.2
+penguin rightarm 8.5 9 0 0 1.2
+
+penguin leftarm 9 9.5 0 0 -1
+penguin rightarm 9 9.5 0 0 -1
+
+penguin leftarm 9.5 10 0 0 1.2
+penguin rightarm 9.5 10 0 0 1.2
+ 
+penguin leftarm 10 10.5 0 0 0
+penguin rightarm 10 10.5 0 0 0
+
+#camera...
+camera move 11 11 -2 4 -20
+camera rotate 11 11 0 18 0
+
+#draaien...
+penguin rightarm 12 12.5 0 0 1.5
+penguin rightarm 12.5 13 0 0 -1
+penguin rightarm 13 13.5 0 0 0
+
+penguin rotate 12.5 13.5 0 -90 15
+
+#camera...
+camera move 14 14 10 4.5 -4
+camera rotate 14 14 0 90 0
+
+#zwaaien
+penguin leftarm 14.5 15 1 2.5 0
+penguin rightarm 14.5 15 1 2.5 0
+
+penguin leftarm 15.5 16 0 0 0
+penguin rightarm 15.5 16 0 0 0
+
+penguin leftarm 16 16.5 1 2.5 0
+penguin rightarm 16 16.5 1 2.5 0
+
+penguin leftarm 16.5 17 0 0 0
+penguin rightarm 16.5 17 0 0 0
+
+penguin leftarm 17 17.5 1 2.5 0
+penguin rightarm 17 17.5 1 2.5 0
+
+penguin leftarm 17.5 18 0 0 0
+penguin rightarm 17.5 18 0 0 0
+
+penguin leftarm 19 19.5 1 2.5 0
+penguin rightarm 19 19.5 1 2.5 0
+
+penguin leftarm 19.5 20 0 0 0
+penguin rightarm 19.5 20 0 0 0
+
+#terug recht komen
+penguin move 21 22 -5 0 -4
+penguin leftfoot 21 22 0 0 0
+penguin rightfoot 21 22 0 0 0
+penguin rotate 21 22 0 -90 0
+
+#camera...
+camera move 22 22 0 9 -38
+camera rotate 22 22 0 0 0
+
+#terug naar start
+penguin walk 22.7 24.7 0 0 0
+
+#einde
+penguin move 25 25.5 0 1 0
+penguin move 25.5 26 0 0 0
+penguin rotate 25.2 25.8 0 0 0
+
+endstory 27 27

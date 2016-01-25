@@ -1,0 +1,122 @@
+penguin visible 0 60
+hat visible 0 60
+penguin follow 0 60 island
+hat follow 51 55 penguin
+hat follow 0 15 penguin
+hat follow 15 20 island
+hat move 0 0 0 3.2 0
+#penguin stapt achteruit
+penguin walk 0.1 5 0 0 9
+
+#zwaaien
+penguin rightarm 4.5 7 0.4 2.8 0
+penguin rightarm 6.8 7.5 1 1 0
+penguin rightarm 7.3 8 0.75 2.5 0
+penguin rightarm 7.8 9.5 1 1 0
+penguin rightarm 9.3 10 0 0 0
+
+#camera goed zetten
+camera move 2 3.5 3 15 -48
+camera rotate 2 3.5 0 11 0
+
+#aanlopen
+penguin walk 10 11 0 0 2
+penguin walk 10.8 12 -1 0 0
+penguin rotate 10.7 11.4 0 18 0
+penguin walk 11.7 12.4 -3 0 -2
+penguin rotate 11.5 12.4 0 30 0
+penguin walk 12.3 12.6 -3.5 0 -2.1
+penguin rotate 12.2 12.8 0 55 0
+penguin walk 12.5 13.5 -8 0 -2.1
+
+#salto
+penguin move 13.3 14.5 -9 4 -6
+penguin rotate 14.3 15.3 -180 55 0
+penguin move 14.2 15 -10 9 -9
+penguin move 14.8 15.2 -12 9.5 -10
+penguin rotate 15.2 16.5 -360 55 0
+penguin move 15.2 16.5 -13 2 -11
+penguin move 16.4 18.5 -10 -9 -12
+
+#hoed dat wegvliegt
+hat move 15.2 17 -6.5 5.2 -12
+hat move 17 21 -6.5 -4 -12
+hat rotate 15.2 17 -285 0 45
+hat rotate 16.7 21 -360 0 35
+0hat move 21 25 -6.5 -5 -12
+hat rotate 20.8 25 -360 0 25
+hat move 24 40 -6.5 -8 -12
+hat rotate 24.7 31 -360 0 0
+
+#terug naar het opppervlak komen
+penguin move 19.5 21.5 -13 -0.75 -13
+penguin move 21.3 22 -13 -2 -13
+penguin rotate 19 19.1 -400 150 -10   // -400 150 10
+
+#zwemmen
+penguin walk 22 23 -15 -2 -8
+penguin walk 22.8 24 -16 -2.1 -6
+penguin walk 23.8 25 -17 -2.2 -3
+penguin walk 24.8 26 -18 -2.2 0
+penguin walk 26 26.8 -18.5 -2.3 2
+penguin walk 26.8 27.6 -17.5 -2.3 5
+penguin walk 27.6 29 -17 -2.4 8
+penguin walk 28.8 30.5 -16.5 -2.6 12
+
+#zwemmen echter maken
+penguin rotate 21.8 23 -390 150 -10
+penguin rotate 22.8 24 -390 160 10
+penguin rotate 23.8 25 -390 170 -10
+penguin rotate 24.8 26 -390 180 10
+penguin rotate 25.8 27 -390 190 -10
+penguin rotate 26.8 28 -390 200 10
+penguin rotate 27.8 29 -390 205 -10
+penguin rotate 29 30.4 -390 210 10
+
+#duiken
+penguin rotate 30.4 30.8 -490 210 -7
+penguin walk 30.4 30.8 -16.5 2 14
+penguin walk 31.2 35.8 -14 -5 14
+ 
+#camera in oorspronkelijk positie zetten
+camera rotate 35.5 37 0 0 0
+camera move 35.5 37 0 9 -38
+
+#terug boven komen
+penguin rotate 35.9 36 -10 10 -8
+penguin move 35.9 36 8 -100 20
+penguin walk 36 36.1 8 -10 20
+penguin walk 36.1 37.2 8 -0.75 20
+penguin walk 37.2 37.5 8 -2.5 20
+
+#op de kant kruipen
+penguin rotate 37.4 38 -10 25 -8
+penguin walk 37.5 40 6 -2.5 14
+penguin move 40 41 6 -3 14
+penguin move 41 41.8 6 -1.5 14
+penguin rightarm 40 41 0.5 0 5.2
+penguin leftarm 40.5 41 0.5 0.5 5.2
+penguin move 41.4 42 5.5 -1 11.5
+penguin rotate 41 42 0 20 0
+penguin move 41.9 42.8 5 0.6 9
+penguin rightarm 41 42 0 0 0
+penguin leftarm 41 42 0 0 0
+penguin move 42.7 43.7 4.5 0 8
+
+#nieuwe hoed gaan halen
+penguin rotate 43.6 45 0 90 0
+penguin walk 44 46 1 0 8
+penguin walk 45.9 48 -2.5 0 9
+penguin walk 47.9 49.5 -4 -2 10.5
+penguin rotate 49.5 49.6 0 -90 0
+
+#penguin walk 51 52 -2.5 0 10
+
+hat move 51 51 0 0 0
+penguin walk 51 52 -2.5 0 9
+penguin walk 51.9 53 1 0 5
+penguin walk 52.9 55 0 0 0
+penguin rotate 55.5 55.5 0 0 0
+
+
+endstory 56 56
