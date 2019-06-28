@@ -90,6 +90,9 @@ depcomp linguist-vendored
 install-sh linguist-vendored
 missing linguist-vendored
 aclocal.m4 linguist-vendored
+acinclude.m4 linguist-vendored
+admin/acinclude.m4.in linguist-vendored
+admin/libtool.m4.in linguist-vendored
 libtool linguist-vendored
 test-driver linguist-vendored
 Makefile.in linguist-vendored
