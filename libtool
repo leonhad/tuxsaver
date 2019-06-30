@@ -41,7 +41,7 @@ available_tags=" CXX GCJ"
 
 # ### BEGIN LIBTOOL CONFIG
 
-# Libtool was configured on host Leo.local:
+# Libtool was configured on host Leonardo-Mac.local:
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/sh"
@@ -60,7 +60,7 @@ fast_install=yes
 
 # The host system.
 host_alias=
-host=i386-apple-darwin15.3.0
+host=i386-apple-darwin18.6.0
 
 # An echo program that does not interpret backslashes.
 echo="/bin/echo"
@@ -85,7 +85,7 @@ LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolcha
 LN_S="ln -s"
 
 # A BSD-compatible nm program.
-NM="/usr/bin/nm"
+NM="/usr/bin/nm -B"
 
 # A sed program that does not truncate output.
 SED="sed"
@@ -5890,7 +5890,7 @@ build_old_libs=`case $build_libtool_libs in yes) echo no;; *) echo yes;; esac`
 # End:
 # ### BEGIN LIBTOOL TAG CONFIG: CXX
 
-# Libtool was configured on host Leo.local:
+# Libtool was configured on host Leonardo-Mac.local:
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/sh"
@@ -5909,7 +5909,7 @@ fast_install=needless
 
 # The host system.
 host_alias=
-host=i386-apple-darwin15.3.0
+host=i386-apple-darwin18.6.0
 
 # An echo program that does not interpret backslashes.
 echo="/bin/echo"
@@ -5934,7 +5934,7 @@ LD="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolcha
 LN_S="ln -s"
 
 # A BSD-compatible nm program.
-NM="/usr/bin/nm"
+NM="/usr/bin/nm -B"
 
 # A sed program that does not truncate output.
 SED="sed"
@@ -6167,7 +6167,7 @@ include_expsyms=""
 
 # ### BEGIN LIBTOOL TAG CONFIG: GCJ
 
-# Libtool was configured on host Leo.local:
+# Libtool was configured on host Leonardo-Mac.local:
 
 # Shell to use when invoking shell scripts.
 SHELL="/bin/sh"
@@ -6186,7 +6186,7 @@ fast_install=needless
 
 # The host system.
 host_alias=
-host=i386-apple-darwin15.3.0
+host=i386-apple-darwin18.6.0
 
 # An echo program that does not interpret backslashes.
 echo="/bin/echo"
@@ -6211,7 +6211,7 @@ LD=""
 LN_S="ln -s"
 
 # A BSD-compatible nm program.
-NM="/usr/bin/nm"
+NM="/usr/bin/nm -B"
 
 # A sed program that does not truncate output.
 SED="sed"
