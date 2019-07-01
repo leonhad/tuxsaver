@@ -1,23 +1,13 @@
-author:  koen muylkens <koen.muylkens@esat.kuleuven.ac.be>
+# Tux Saver
 
-0 LICENSE
-1 INSTALATION
-2 HOW TO MAKE YOUR OWN STORIES
-3 HOW TO MAKE YOUR OWN HATS
-4 HOW TO MAKE YOUR OWN ISLANDS
+For more info see the howto in the setup dialog box of tuxsaver.
 
-For more info see the howto in the setup dialog box of tuxsaver !!!
-
-0. LICENSE
-
-Everything included in tuxsaver is GPL (General Public License).
-
-1 INSTALATION
+## Instalation
 
 To install tuxsaver, make sure you have kde 3.x and have OpenGL configured.
 Including the development libraries.
 
--for Mandrake, Redhat:
+- for Mandrake, Redhat:
 
 tar -xzvf tuxsaver-x.tar.gz
 cd tuxsaver-x
@@ -26,8 +16,7 @@ kde installation)
 make
 make install
 
-
--for Suse:
+- for Suse:
 
 tar -xzvf tuxsaver-x.tar.gz
 cd tuxsaver-x
@@ -36,21 +25,28 @@ kde installation)
 make
 make install
 
-
-2 HOW TO MAKE YOUR OWN STORIES
+## How to make your own story
 
 See the storyhowto.html file included in tuxsaver. There's a link in
 the setupdialog.
 
-3 HOW TO MAKE YOUR OWN HATS
+## How to make you own hat
 
 Use ac3d to draw new objects like hats.
 Put the .ac-file in '/usr/share/apps/tuxsaver/objects/hats' and they
 will be added to the list of hats.
 
-4 HOW TO MAKE YOUR OWN ISLAND
+## How to make you own island
 
 Use ac3d to draw new objects like islands.
 Put the .ac-file in '/usr/share/apps/tuxsaver/objects/islands' and they
 will be added to the list of islands.
 
+## Licensing
+
+This software is released under the GNU Lesser General Public License v3.0 (LGPLv3).
+Additionally, Autoconf includes a licensing exception in some of its
+source files.
+
+For more licensing information, see
+<http://www.gnu.org/licenses/gpl-faq.html>.
